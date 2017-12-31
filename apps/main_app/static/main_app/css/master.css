@@ -1,0 +1,68 @@
+html{
+  height: 100%;
+}
+h1{
+  color: rgb(100,140,100);
+  font-size: 60px;
+  background-color: rgba(0,0,0,0.5);
+  width: 800px;
+  display: inline-block;
+  height: 80px;
+  border:2px solid black;
+}
+body{
+  text-align: center;
+  align-items: center;
+  background-image: url("../img/bar.jpg");
+  background-position: left top;
+  background-size: 110% 110%;
+}
+.topbar{
+  margin: 10px auto;
+  width:970px;
+  height: 40px;
+  /* background-image: url("../img/bar.jpg"); */
+}
+.content{
+  padding-top: 10px;
+  margin:auto;
+  background-color: blue;
+  width:970px;
+  height: 600px;
+  background-image: url("../img/background.jpg");
+}
+.links{
+  /* height: 50px; */
+  text-align: center;
+  width:970px;
+  margin:20px auto;
+}
+.links a{
+  vertical-align: top;
+  margin: 10px 0px;
+  display: inline-block;
+}
+.text{
+  padding: 0px 20px;
+  margin : auto;
+  background: rgba(255,255,255,0.5);
+  width:80%;
+  height: 90%;
+}
+.topbar a{
+  background: rgba(0,0,0,0.5);
+  text-decoration: none;
+  border-radius: 10px;
+  margin: auto;
+  color: silver;
+  box-shadow: 5px 5px 5px black;
+  padding: 20px;
+}
+.links img{
+  width: 40px;
+  display: inline-block;
+  vertical-align: middle;
+}
+img{
+  width: 250px;
+}
